@@ -21,4 +21,9 @@ async def neko(ctx):
     await ctx.send('meow')
     
     
+@bot.command()
+async def hello(ctx):
+    await ctx.send('hello')
+    
+    
 bot.run(token)
