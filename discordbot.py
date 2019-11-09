@@ -21,10 +21,4 @@ async def neko(ctx):
     await ctx.send('meow')
     
     
-var channel = (e.message.author as Member).voiceState.channel;
-      List<String> users = channel.connectedUsers
-          .map((voiceState) => voiceState.user.username)
-          .toList();
-    
-    
 bot.run(token)
